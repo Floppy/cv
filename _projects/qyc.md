@@ -1,0 +1,2 @@
+Question Your Candidates – www.questionyourcandidates.org.uk
+An application built from scratch in 6 hours during the general election campaign of 2010, which was designed to crowdsource information about hustings in each constituency. Such rapid development was possible because of the use of public data and APIs, particularly the APIs from TheyWorkForYou and YourNextMP. Features included postcode search and Google maps integration. The application was built in Ruby on Rails.

@@ -1,0 +1,14 @@
+<h2>Skills</h2>
+
+<table class='table table-striped'>
+  {% for skill in site.data.skills %}
+    <tr>
+      <th>
+        {{ skill[0] }}
+      </th>
+      <td>
+        {{ skill[1] | join string:", " }}
+      </td>
+    </tr>
+  {% endfor %}
+</table>

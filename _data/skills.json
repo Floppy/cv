@@ -1,0 +1,65 @@
+{
+  "Programming": [
+    "Ruby", 
+    "C++", 
+    "C", 
+    "Java", 
+    "C#", 
+    "Python", 
+    "Objective C", 
+    "OpenGL"
+  ],
+  "Web": [
+    "Ruby on Rails", 
+    "HTML5", 
+    "CSS3", 
+    "SCSS",
+    "JavaScript", 
+    "CoffeeScript", 
+    "jQuery", 
+    "Node.js",
+    "Jekyll",
+    "XML", 
+    "PHP", 
+    "VRML", 
+    "WebGL",
+  ],
+  "Software Design": [
+    "REST/HATEOAS", 
+    "OOP", 
+    "UML", 
+    "Design Patterns", 
+    "Information Architecture"
+  ],
+  "Platforms": [
+    "OSX", 
+    "Linux", 
+    "Windows", 
+    "iOS", 
+    "AWS", 
+    "Heroku", 
+    "CloudFoundry"
+  ],
+  "Databases": [
+    "MySQL", 
+    "SQLite", 
+    "PostgreSQL/PostGIS", 
+    "Redis", 
+    "MongoDB"
+  ],
+  "Tools": [
+    "Git", 
+    "Subversion", 
+    "Capistrano", 
+    "RVM/rbenv", 
+    "Passenger", 
+    "Apache", 
+    "Visual C++", 
+    "gcc",
+    "make", 
+    "Ant", 
+    "CruiseControl", 
+    "Xcode", 
+    "JIRA"
+  ]
+}

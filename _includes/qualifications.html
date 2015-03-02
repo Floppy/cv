@@ -1,0 +1,14 @@
+<h2>Qualifications</h2>
+
+{% assign qualifications = site.qualifications | reverse %}
+{% for q in qualifications %}
+
+  <div class="row">
+    <div class="col-md-12">
+      <h3>{{ q.title }}</h3>
+      <em><a href='{{q.organisation_url}}'>{{ q.organisation }}</a></em>
+      {{ q.content }}
+    </div>
+  </div>
+  
+{% endfor %}

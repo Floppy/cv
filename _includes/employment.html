@@ -1,0 +1,25 @@
+<h2>Employment History</h2>
+
+{% assign jobs = site.jobs | reverse %}
+{% for job in jobs %}
+
+  <div class="row">
+    <div class="col-md-12">
+      <h3>
+        {{job.date}} {{ job.title }}{% if job.organisation %}, 
+          {% if job.organisation_url %}
+            <a href='{{job.organisation_url}}'>
+          {% endif %}
+          {{ job.organisation }}</a>
+          {% if job.organisation_url %}
+            </a>
+          {% endif %}
+        {% endif %}
+      </h3>
+      <address>{{ job.location }}</address>
+      {{ job.content }}
+    </div>
+  </div>
+  
+{% endfor %}
+
