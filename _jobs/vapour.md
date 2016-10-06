@@ -1,6 +1,7 @@
 ---
-end: "2002-07-01"
-title: Technical Director
+start: 1999-12-01
+end: 2002-07-01
+role: Technical Director
 organisation: Vapour Technology
 location: Guildford, Surrey, UK
 ---

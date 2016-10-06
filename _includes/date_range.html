@@ -1,0 +1,7 @@
+{{ include.item.start  | date: "%b %Y" }}
+-
+{% if include.item.end %}
+  {{ include.item.end  | date: "%b %Y" }}
+{% else %}
+  Present
+{% endif %}

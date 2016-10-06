@@ -1,6 +1,7 @@
 ---
-end: "2013-01-01"
-title: Cleanweb Consultant
+start: 2012-04-01
+end: 2013-01-01
+role: Cleanweb Consultant
 organisation: Therm
 location: Horsham, West Sussex, UK
 ---

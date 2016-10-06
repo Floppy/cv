@@ -1,6 +1,7 @@
 ---
-end: "2008-09-01"
-title: Self Employed
+start: 2007-04-01
+end: 2008-09-01
+organisation: Self Employed
 location: Horsham, West Sussex, UK
 ---
 I spent some time self employed, working on both my own projects and projects for clients, mainly on software projects related to climate change. This was an opportunity to cross-train away from traditional desktop platforms onto the emerging platform of the Web.

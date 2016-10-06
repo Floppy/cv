@@ -1,12 +1,12 @@
 <h2>Employment History</h2>
 
-{% assign jobs = site.jobs | reverse %}
+{% assign jobs = site.jobs | sort: "start" | reverse %}
 {% for job in jobs %}
 
-  <div class="row">
+  <div class="row" itemscope itemprop=>
     <div class="col-md-12">
-      <h3>
-        {{job.date}} {{ job.title }}{% if job.organisation %}, 
+      <h3>        
+        {% if job.organisation %}
           {% if job.organisation_url %}
             <a href='{{job.organisation_url}}'>
           {% endif %}
@@ -14,10 +14,30 @@
           {% if job.organisation_url %}
             </a>
           {% endif %}
+          <small>
+            {% include date_range.html item=job %}
+          </small>
+        {% else %}
+          {% include date_range.html item=job %}
         {% endif %}
       </h3>
       <address>{{ job.location }}</address>
+      {% if job.role %}<h4>{{job.role}}</h4>{% endif %}
       {{ job.content }}
+      
+      {% assign job_id = job.title | downcase %}
+      {% assign roles = site.roles | sort: "start" | reverse %}
+      {% for role in roles %}
+        {% if role.job == job_id %}
+          <h4>
+            {{role.title}}
+            <small>{% include date_range.html item=role %}</small>
+          </h4>
+          {{role.content}}
+        {% endif %}
+      {% endfor %}
+
+
     </div>
   </div>
   

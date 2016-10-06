@@ -1,6 +1,7 @@
 ---
-end: "2007-03-01"
-title: Software Team Leader
+start: 2004-07-01
+end: 2007-03-01
+role: Software Team Leader
 organisation: SEOS
 organisation_url: http://www.seos.com
 location: Burgess Hill, West Sussex, UK

@@ -1,4 +1,5 @@
 collections:
   - jobs
+  - roles
   - projects
   - qualifications
