@@ -5,6 +5,7 @@ role: Software Team Leader
 organisation: SEOS
 organisation_url: http://www.seos.com
 location: Burgess Hill, West Sussex, UK
+status: employed
 ---
 SEOS makes display systems for flight simulators and planetariums. My role encompassed leading and managing a team of four software developers, ultimately responsible for all software delivered by the company.
 

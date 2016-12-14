@@ -1,8 +1,11 @@
 ---
-start: 1998
-title: PhD, Computer Graphics & Animation
-organisation: CVSSP, University of Surrey, Guildford, Surrey, UK
+start: 1998-09-01
+end: 2003-11-01
+role: PhD, Computer Graphics & Animation
+organisation: CVSSP, University of Surrey
 organisation_url: http://www.surrey.ac.uk/cvssp/
+location: Guildford, Surrey, UK
+status: education
 ---
 During my PhD research, I developed a method of using densely scanned 3D surface data in realtime animation systems, using a layered approach including skeletal animation and displacement mapping techniques. Publications:
 

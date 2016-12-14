@@ -4,6 +4,7 @@ end: 2002-07-01
 role: Technical Director
 organisation: Vapour Technology
 location: Guildford, Surrey, UK
+status: selfemployed
 ---
 Concurrently with my PhD research, I started and ran a small software engineering and consultancy company,  specialising in 3D graphics application development, particularly for web-based applications. I was jointly responsible for product development, and also ran the day to day business affairs of the company. 
 
