@@ -1,0 +1,47 @@
+<h2>Experience</h2>
+
+<div id="experience" role="tablist" aria-multiselectable="true">
+{% assign experiences = site.experiences | sort: "start" %}
+{% for experience in experiences reversed %}
+  {% assign experience_id = experience.title | downcase %}
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="heading-experience-{{forloop.index0}}">
+      <h3 class="panel-title">
+        <a data-toggle="collapse" data-parent="#experience" href="#experience-{{forloop.index0}}" aria-expanded="{{ forloop.first }}" aria-controls="experience-{{forloop.index0}}">
+          {% if experience.organisation %}
+            <!-- {% if experience.organisation_url %}
+              <a href='{{experience.organisation_url}}'>
+            {% endif %} -->
+            {{ experience.organisation }}
+            <!-- {% if experience.organisation_url %}
+              </a>
+            {% endif %} -->
+            <small class="text-muted">
+              {% include date_range.html item=experience %}
+            </small>
+          {% else %}
+            {% include date_range.html item=experience %}
+          {% endif %}
+        </a>
+      </h3>
+    </div>
+    <div id="experience-{{forloop.index0}}" class="panel-collapse collapse {% if forloop.first %}in{%endif%}" role="tabpanel" aria-labelledby="heading-experience-{{forloop.index0}}">
+      <address>{{ experience.location }}</address>
+      {% if experience.role %}<h4>{{experience.role}}</h4>{% endif %}
+      {{ experience.content }}
+      
+      {% assign roles = site.roles | sort: "start" %}
+      {% for role in roles reversed jek%}
+        {% if role.experience == experience_id %}
+          <h4>
+            {{role.title}}
+            <small class="text-muted">{% include date_range.html item=role %}</small>
+          </h4>
+          {{role.content}}
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+
+{% endfor %}
+</div>

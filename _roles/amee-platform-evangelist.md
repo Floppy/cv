@@ -1,5 +1,5 @@
 ---
-job: amee
+experience: amee
 start: 2011-04-01
 end: 2012-03-01
 title: Platform Evangelist

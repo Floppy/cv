@@ -1,5 +1,5 @@
 ---
-job: amee
+experience: amee
 start: 2008-09-01
 end: 2011-04-01
 title: Software Developer

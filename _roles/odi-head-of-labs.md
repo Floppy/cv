@@ -1,5 +1,5 @@
 ---
-job: odi
+experience: odi
 start: 2014-11-01
 title: Head of Labs
 ---
