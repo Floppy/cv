@@ -8,6 +8,7 @@
     <div class="panel-heading" role="tab" id="heading-experience-{{forloop.index0}}">
       <h3 class="panel-title">
         <a data-toggle="collapse" data-parent="#experience" href="#experience-{{forloop.index0}}" aria-expanded="{{ forloop.first }}" aria-controls="experience-{{forloop.index0}}">
+          <i class='fa fa-{{ site.data.icons[experience.status] }}' aria-label='{{experience.status}}'></i>
           {% if experience.organisation %}
             <!-- {% if experience.organisation_url %}
               <a href='{{experience.organisation_url}}'>
