@@ -5,6 +5,11 @@ organisation: The Carbon Diet
 organisation_url: http://carbondiet.org
 location: Horsham, West Sussex, UK
 status: selfemployed
+skills:
+  - Ruby
+  - Rails
+  - HTML
+  - CSS
 ---
 [The Carbon Diet](www.carbondiet.org) was a next-generation carbon calculator which calculates daily carbon footprints for its users, and recommends actions they can take to reduce their carbon impact.
 

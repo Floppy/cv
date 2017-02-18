@@ -6,5 +6,9 @@ organisation: University of Surrey
 organisation_url: http://www.surrey.ac.uk/
 location: Guildford, Surrey, UK
 status: education
+skills:
+  - C
+  - C++
+  - HTML
 ---
 Subjects studied included numerous programming languages and techniques, computer architectures, network protocols, and machine intelligence.

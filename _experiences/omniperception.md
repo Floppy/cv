@@ -6,6 +6,10 @@ organisation: OmniPerception
 organisation_url: http://www.omniperception.com
 location: Guildford, Surrey, UK
 status: employed
+skills:
+  - Computer Vision
+  - Machine Learning
+  - C++
 ---
 Employed as principal software engineer for a biometrics and computer vision company, specialising in face recognition software. 
 

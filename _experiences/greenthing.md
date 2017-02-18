@@ -5,6 +5,11 @@ organisation: Green Thing
 organisation_url: http://www.dothegreenthing.com
 location: London, UK
 status: contract
+skills:
+  - Ruby
+  - Rails
+  - HTML
+  - CSS
 ---
 I spent some time self employed, working on both my own projects and projects for clients, mainly on software projects related to climate change. This was an opportunity to cross-train away from traditional desktop platforms onto the emerging platform of the Web.
 
