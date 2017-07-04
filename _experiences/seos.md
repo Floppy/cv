@@ -5,5 +5,14 @@ organisation: SEOS
 organisation_url: http://www.seos.com
 location: Burgess Hill, West Sussex, UK
 status: employed
+skills:
+  - C++
+  - MFC
+  - XML
+  - RS232
+  - Subversion
+  - Trac
+  - CruiseControl
+  - CppUnit
 ---
 SEOS makes display systems for flight simulators and planetariums.
