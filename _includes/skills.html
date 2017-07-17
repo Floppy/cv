@@ -1,13 +1,13 @@
-<h2>Skills</h2>
-
 <table class='table table-striped'>
-  {% for skill in site.data.skills %}
+  {% for category in site.data.skills %}
     <tr>
       <th>
-        {{ skill[0] }}
+        {{ category[0] }}
       </th>
       <td>
-        {{ skill[1] | join string:", " }}
+        {% for skill in category[1] %}
+          <span class="badge badge-default">{{ skill }}</span>
+        {% endfor %}
       </td>
     </tr>
   {% endfor %}
