@@ -23,7 +23,22 @@
       </h3>
 
       <div id="experience-{{forloop.index0}}" class="panel-collapse collapse {% if forloop.first %}in{%endif%}" role="tabpanel" aria-labelledby="heading-experience-{{forloop.index0}}">
-        <address>{{ experience.location }}</address> {{ experience.organisation_url }}
+        <div style="padding-bottom: 20px">
+          {% if experience.location %}
+            <div style='display: inline; padding-left: 30px'>
+              <i class='fa fa-map-marker'></i>
+              <address style='display: inline'>{{ experience.location }}</address>
+            </div>
+          {% endif %}
+          {% if experience.organisation_url %}
+            <div style='display: inline; padding-left: 30px'>
+              <i class='fa fa-globe'></i>
+              <a href='{{ experience.organisation_url }}'>
+                {{ experience.organisation_url }}          
+              </a>
+            </div>
+          {% endif %}
+        </div>
         {% if experience.role %}<h4>{{experience.role}}</h4>{% endif %}
         {{ experience.content }}
         

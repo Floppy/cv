@@ -3,7 +3,6 @@ start: 2007-04-01
 end: 2008-09-01
 organisation: The Carbon Diet
 organisation_url: http://carbondiet.org
-location: Horsham, West Sussex, UK
 status: selfemployed
 skills:
   - Ruby
