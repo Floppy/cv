@@ -1,0 +1,9 @@
+{% for p in site.data.contact %}
+  <div class="card card-inverse card-primary" style="margin: 10px">
+    <div class="card-block">
+      <a href='{{ p[1]["url"] }}'>
+        <i class='fa fa-{{ p[1]["icon"] }} fa-fw fa-3x' style='color: white'></i>
+      </a>
+    </div>
+  </div>
+{% endfor %}

@@ -1,8 +1,47 @@
 {
-  "web": "http://floppy.org.uk",
-  "email": "james@floppy.org.uk",
-  "twitter": "https://twitter.com/Floppy",
-  "github": "https://github.com/Floppy",
-  "keybase": "https://keybase.io/Floppy",
-  "phone": "mreb frira frira bar svir bar mreb svir guerr sbhe avar"
+  "web": {
+    "text": "floppy.org.uk",
+    "url": "https://floppy.org.uk",
+    "icon": "globe"
+  },
+  "email": {
+    "text": "james@floppy.org.uk",
+    "url": "mailto:james@floppy.org.uk",
+    "icon": "envelope"
+  },
+  "github": {
+    "text": "github.com/Floppy",
+    "url": "https://github.com/Floppy",
+    "icon": "github"
+  },
+  "twitter": {
+    "text": "@Floppy",
+    "url": "https://twitter.com/Floppy",
+    "icon": "twitter"
+  },
+  "linkedin": {
+    "text": "linkedin.com/in/floppy/",
+    "url": "https://linkedin.com/in/floppy/",
+    "icon": "linkedin-square"
+  },
+  "facebook": {
+    "text": "facebook.com/jamesakafloppy",
+    "url": "https://facebook.com/jamesakafloppy",
+    "icon": "facebook-official"
+  },
+  "skype": {
+    "text": "r-j-smith",
+    "url": "skype:r-j-smith?userinfo",
+    "icon": "skype"
+  },
+  "keybase": {
+    "text": "keybase.io/Floppy",
+    "url": "https://keybase.io/Floppy",
+    "icon": "key"
+  },
+  "phone": {
+    "text": "mreb frira frira bar svir bar mreb svir guerr sbhe avar",
+    "url": "https://gchq.github.io/CyberChef/#input=bXJlYiBmcmlyYSBmcmlyYSBiYXIgc3ZpciBiYXIgbXJlYiBzdmlyIGd1ZXJyIHNiaGUgYXZhcg",
+    "icon": "phone"
+  }
 }
