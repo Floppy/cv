@@ -1,53 +1,62 @@
 {
-  "Programming": [
+  "Languages": [
     "Ruby", 
     "C++", 
     "C", 
     "Java", 
-    "C#", 
-    "Python", 
+    "C#",
+    "Python",
     "Objective C", 
-    "OpenGL"
+    "Rust",
+    "JavaScript", 
+    "CoffeeScript", 
+    "PHP", 
   ],
   "Web": [
     "Ruby on Rails", 
-    "HTML5", 
-    "CSS3", 
-    "SCSS",
-    "JavaScript", 
-    "CoffeeScript", 
-    "jQuery", 
     "Node.js",
+    "HTML", 
+    "CSS", 
+    "Sass",
+    "jQuery", 
     "Jekyll",
     "XML", 
-    "PHP", 
-    "VRML", 
-    "WebGL",
   ],
-  "Software Design": [
-    "REST/HATEOAS", 
+  "Graphics": [
+    "VRML",
+    "WebGL",
+    "three.js",
+    "OpenGL",
+  ],
+  "Architecture": [
+    "REST",
+    "HATEOAS", 
+    "API design",
     "OOP", 
     "UML", 
     "Design Patterns", 
     "Information Architecture"
   ],
   "Platforms": [
-    "OSX", 
-    "Linux", 
-    "Windows", 
-    "iOS", 
-    "AWS", 
-    "Heroku", 
-    "CloudFoundry"
+    "Linux",
+    "OSX",
+    "Windows",
+    "iOS",
+    "Heroku",
+    "AWS",
+    "OpenStack"
   ],
   "Databases": [
-    "MySQL", 
+    "MySQL",
+    "MariaDB", 
     "SQLite", 
-    "PostgreSQL/PostGIS", 
-    "Redis", 
-    "MongoDB"
+    "PostgreSQL",
+    "PostGIS", 
+    "Redis",
+    "MongoDB",
+    "Elasticsearch"
   ],
-  "Tools": [
+  "Tooling": [
     "Git", 
     "Subversion", 
     "Capistrano", 
