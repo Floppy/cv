@@ -35,16 +35,16 @@
     </div>
 
 
-    <div class="container">
-
-      {% include skills.html %}
-
-      {% include experience.html %}
-          
-      {% include interests.html %}
-
-      {% include personal.html %}
-
+    <div class="container-fluid">
+      <div class='row'>
+        <div class='col-md-10'>
+          {% include skills.html %}
+          {% include experience.html %}
+        </div>
+        <div class='col-md-2'>
+          {% include contact.html %}
+        </div>
+      </div>
 
       <footer>
         <p>&copy; James Smith {{ site.time | date: '%Y' }}</p>
