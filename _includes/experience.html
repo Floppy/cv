@@ -9,20 +9,16 @@
       <h3>
         <a data-toggle="collapse" data-parent="#experience" href="#experience-{{forloop.index0}}" aria-expanded="{{ forloop.first }}" aria-controls="experience-{{forloop.index0}}">
           <i class='fa fa-{{ site.data.icons[experience.status] }} fa-fw' aria-label='{{experience.status}}'></i>
-          {% if experience.organisation %}
-            <!-- {% if experience.organisation_url %}
-              <a href='{{experience.organisation_url}}'>
-            {% endif %} -->
-            {{ experience.organisation }}
-            <!-- {% if experience.organisation_url %}
-              </a>
-            {% endif %} -->
-            <small class="text-muted">
-              {% include date_range.html item=experience %}
-            </small>
-          {% else %}
+          <!-- {% if experience.organisation_url %}
+            <a href='{{experience.organisation_url}}'>
+          {% endif %} -->
+          {{ experience.organisation }}
+          <!-- {% if experience.organisation_url %}
+            </a>
+          {% endif %} -->
+          <small class="text-muted">
             {% include date_range.html item=experience %}
-          {% endif %}
+          </small>
         </a>
       </h3>
 
