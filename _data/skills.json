@@ -1,16 +1,27 @@
 {
   "Leadership": [
     "Agile team leadership",
+    "Open source collaboration",
+    "Scrum",
+    "Kanban",
     "Strategy",
     "Mentoring",
+    "Public speaking",
     "Training",
     "Technical sales",
     "Client relations",
     "Budgeting",
-    "Public speaking",
     "Proposal writing",
-    "Scrum",
-    "Kanban",
+  ],
+  "Technologies": [
+    "Open data",
+    "API design",
+    "Information Architecture",    
+    "Virtual reality",
+    "3D graphics",
+    "Machine learning",
+    "Computer vision",
+    "Blockchains",
   ],
   "Languages": [
     "Ruby", 
@@ -35,31 +46,18 @@
     "jQuery", 
     "Jekyll",
     "XML", 
-  ],
-  "Graphics": [
     "VRML",
     "WebGL",
     "three.js",
-    "OpenGL",
   ],
-  "Software Design": [
+  "Design": [
     "HTTP",
     "REST",
     "HATEOAS",
-    "API design",
     "SOA",
     "OOP",
     "UML",
     "Design Patterns",
-    "Information Architecture"
-  ],
-  "Technologies": [
-    "Open data",
-    "Blockchains",
-    "3D graphics",
-    "Virtual reality",
-    "Machine learning",
-    "Computer vision",
   ],
   "Platforms": [
     "Linux",
