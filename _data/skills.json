@@ -3,11 +3,14 @@
     "Agile team leadership",
     "Strategy",
     "Mentoring",
+    "Training",
     "Technical sales",
     "Client relations",
     "Budgeting",
     "Public speaking",
     "Proposal writing",
+    "Scrum",
+    "Kanban",
   ],
   "Languages": [
     "Ruby", 
@@ -23,7 +26,9 @@
     "PHP", 
   ],
   "Web": [
-    "Ruby on Rails", 
+    "Rails", 
+    "Sinatra",
+    
     "Node.js",
     "HTML", 
     "CSS", 
@@ -38,7 +43,7 @@
     "three.js",
     "OpenGL",
   ],
-  "Architecture": [
+  "Software Design": [
     "HTTP",
     "REST",
     "HATEOAS",
@@ -48,6 +53,10 @@
     "UML",
     "Design Patterns",
     "Information Architecture"
+  ],
+  "Techniques": [
+    "Machine learning",
+    "Computer vision",
   ],
   "Platforms": [
     "Linux",
@@ -70,17 +79,17 @@
   ],
   "Tooling": [
     "Git", 
+    "GitHub",
     "Subversion", 
     "Capistrano", 
-    "RVM/rbenv", 
+    "Chef", 
+    "RVM",
+    "rbenv",
     "Passenger", 
     "Apache", 
-    "Visual C++", 
-    "gcc",
+    "nginx", 
     "make", 
-    "Ant", 
-    "CruiseControl", 
-    "Xcode", 
+    "Ant",
     "JIRA"
-  ]
+  ],
 }
