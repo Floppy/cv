@@ -11,4 +11,4 @@ A Levels:
 
  * Electronics (A)
  * Maths (A)
- * Physics (A) + S Level (Merit)
+ * Physics (A) + [S Level](https://en.wikipedia.org/wiki/Scholarship_Level) (Merit)
