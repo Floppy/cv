@@ -55,7 +55,7 @@
             <div style='display: inline; padding-left: 30px'>
               <i class='fa fa-globe'></i>
               <a href='{{ experience.organisation_url }}'>
-                {{ experience.organisation_url }}          
+                {{ experience.organisation_url | replace: 'http://', '' | replace: 'https://', ''}}
               </a>
             </div>
           {% endif %}
