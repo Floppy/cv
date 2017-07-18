@@ -3,7 +3,7 @@ start: 2012-04-01
 end: 2013-01-01
 role: Rails Developer
 organisation: Property Detective
-organisation_url: https://www.propertydetective.com/
+organisation_url: https://propertydetective.com
 location: London, UK
 status: contract
 skills:

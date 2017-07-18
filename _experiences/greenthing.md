@@ -2,7 +2,7 @@
 start: 2007-11-01
 end: 2008-09-01
 organisation: Green Thing
-organisation_url: http://www.dothegreenthing.com
+organisation_url: http://dothegreenthing.com
 location: London, UK
 role: Technical Product Manager
 status: contract

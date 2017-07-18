@@ -3,7 +3,7 @@ start: 2002-07-01
 end: 2004-07-01
 role: Principal Software Engineer
 organisation: OmniPerception
-organisation_url: http://www.omniperception.com
+organisation_url: http://omniperception.com
 location: Guildford, Surrey, UK
 status: employed
 skills:

@@ -2,7 +2,7 @@
 start: 2008-09-01
 end: 2012-03-01
 organisation: AMEE
-organisation_url: http://www.amee.com
+organisation_url: https://www.amee.com
 location: London, UK
 status: employed
 skills:

@@ -3,7 +3,7 @@ start: 1998-09-01
 end: 2003-11-01
 role: PhD, Computer Graphics & Animation
 organisation: CVSSP, University of Surrey
-organisation_url: http://www.surrey.ac.uk/cvssp/
+organisation_url: https://www.surrey.ac.uk/cvssp
 location: Guildford, Surrey, UK
 status: education
 ---
