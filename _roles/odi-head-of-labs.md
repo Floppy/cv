@@ -9,3 +9,5 @@ I led the ODI's agile research & development (Labs) team, which explored new way
 My role involved day-to-day team leadership and line management, but also developing programme strategy, finding clients and projects, working with project managers to deliver work, and managing a total budget of around £0.5 million.
 
 During this time I was the technical author for the [“Data Sharing and Open Data for Banks”](https://www.gov.uk/government/publications/data-sharing-and-open-data-for-banks) report for HM Treasury, which made recommendations that led to the creation of the UK [Open Banking standard](https://www.openbanking.org.uk/). I also authored an influential report on [blockchain technologies and their role in data infrastructure](http://theodi.org/technical-report-blockchain-technology-in-global-data-infrastructure).
+
+I am also an ODI registered trainer, and have delivered public training courses on technology topics including git/GitHub, and blockchains.
