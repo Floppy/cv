@@ -1,4 +1,13 @@
 {
+  "Leadership": [
+    "Agile team leadership",
+    "Mentoring",
+    "Technical sales",
+    "Client relations",
+    "Budgeting",
+    "Public speaking",
+    "Proposal writing",
+  ],
   "Languages": [
     "Ruby", 
     "C++", 
@@ -29,12 +38,14 @@
     "OpenGL",
   ],
   "Architecture": [
+    "HTTP",
     "REST",
-    "HATEOAS", 
+    "HATEOAS",
     "API design",
-    "OOP", 
-    "UML", 
-    "Design Patterns", 
+    "SOA",
+    "OOP",
+    "UML",
+    "Design Patterns",
     "Information Architecture"
   ],
   "Platforms": [
