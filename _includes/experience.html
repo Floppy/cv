@@ -10,17 +10,21 @@
   }
 </style>
 
-<div id='legend'>
-  <ul>
-    <li><i class='fa fa-briefcase'></i> Employed</li>
-    <li><i class='fa fa-handshake-o'></i> Contract</li>
-    <li><i class='fa fa-user'></i> Self Employed</li>
-    <li><i class='fa fa-hand-peace-o'></i> Voluntary</li>
-    <li><i class='fa fa-graduation-cap'></i> Education</li>
-  </ul>
+<div class='row'>
+  <div class='col'>
+    <h2>Experience</h2>
+  </div>
+  <div class='col-auto' id='legend'>
+    <ul>
+      <li><i class='fa fa-briefcase'></i> Employed</li>
+      <li><i class='fa fa-handshake-o'></i> Contract</li>
+      <li><i class='fa fa-user'></i> Self Employed</li>
+      <li><i class='fa fa-hand-peace-o'></i> Voluntary</li>
+      <li><i class='fa fa-graduation-cap'></i> Education</li>
+    </ul>
+  </div>
 </div>
 
-<h2>Experience</h2>
 
 <ul class="list-group">
   {% assign experiences = site.experiences | sort: "start" %}

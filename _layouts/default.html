@@ -17,9 +17,9 @@
   <body>
 
     <div class="jumbotron" style="background: rgb(60,126,68) url('assets/background.jpg'); background-size: cover">
-      <div class="container-fluid">
+      <div class="container">
         <div class='row'>
-          <div class='col-sm-9'>
+          <div class='col-md'>
             <div style='background: rgba(255,255,255,0.85); padding: 1em;'>
               <h1>{{page.title}}</h1>
               <p>
@@ -27,8 +27,8 @@
               </p>
             </div>
           </div>
-          <div class='col-sm-3'>
-            <img src='assets/headshot.jpg' class="rounded-circle">
+          <div class='col-md-auto hidden-sm-down'>
+            <img src='assets/headshot.jpg' class="rounded-circle" style='max-width: 25vw'>
           </div>
         </div>
       </div>
