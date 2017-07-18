@@ -1,18 +1,23 @@
 {
+  "keybase": {
+    "text": "keybase.io/Floppy",
+    "url": "https://keybase.io/Floppy",
+    "icon": "key"
+  },
   "email": {
     "text": "james@floppy.org.uk",
     "url": "mailto:james@floppy.org.uk",
     "icon": "envelope"
   },
-  "github": {
-    "text": "github.com/Floppy",
-    "url": "https://github.com/Floppy",
-    "icon": "github"
-  },
   "twitter": {
     "text": "@Floppy",
     "url": "https://twitter.com/Floppy",
     "icon": "twitter"
+  },
+  "github": {
+    "text": "github.com/Floppy",
+    "url": "https://github.com/Floppy",
+    "icon": "github"
   },
   "linkedin": {
     "text": "linkedin.com/in/floppy/",
@@ -33,11 +38,6 @@
     "text": "r-j-smith",
     "url": "skype:r-j-smith?userinfo",
     "icon": "skype"
-  },
-  "keybase": {
-    "text": "keybase.io/Floppy",
-    "url": "https://keybase.io/Floppy",
-    "icon": "key"
   },
   "phone": {
     "text": "mreb frira frira bar svir bar mreb svir guerr sbhe avar",
