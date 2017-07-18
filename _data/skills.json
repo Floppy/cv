@@ -28,7 +28,6 @@
   "Web": [
     "Rails", 
     "Sinatra",
-    
     "Node.js",
     "HTML", 
     "CSS", 
@@ -54,7 +53,9 @@
     "Design Patterns",
     "Information Architecture"
   ],
-  "Techniques": [
+  "Technologies": [
+    "Open data",
+    "Blockchains",
     "Machine learning",
     "Computer vision",
   ],
