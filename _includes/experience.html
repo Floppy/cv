@@ -26,59 +26,61 @@
 </div>
 
 
-<ul class="list-group">
+<div id="accordion" role="tablist" aria-multiselectable="true">
   {% assign experiences = site.experiences | sort: "start" %}
   {% for experience in experiences reversed %}
     {% assign experience_id = experience.title | downcase %}
-    <li class="list-group-item" id="heading-experience-{{forloop.index0}}">
-      <h3>
-        <a data-toggle="collapse" data-parent="#experience" href="#experience-{{forloop.index0}}" aria-expanded="{{ forloop.first }}" aria-controls="experience-{{forloop.index0}}">
-          <i class='fa fa-{{ site.data.icons[experience.status] }} fa-fw' aria-label='{{experience.status}}'></i>
-          <!-- {% if experience.organisation_url %}
-            <a href='{{experience.organisation_url}}'>
-          {% endif %} -->
-          {{ experience.organisation }}
-          <!-- {% if experience.organisation_url %}
-            </a>
-          {% endif %} -->
-          <small class="text-muted">
-            {% include date_range.html item=experience %}
-          </small>
-        </a>
-      </h3>
-
-      <div id="experience-{{forloop.index0}}" class="panel-collapse collapse {% if forloop.first %}in{%endif%}" role="tabpanel" aria-labelledby="heading-experience-{{forloop.index0}}">
-        <div style="padding-bottom: 20px">
-          {% if experience.location %}
-            <div style='display: inline; padding-left: 30px'>
-              <i class='fa fa-map-marker'></i>
-              <address style='display: inline'>{{ experience.location }}</address>
-            </div>
-          {% endif %}
-          {% if experience.organisation_url %}
-            <div style='display: inline; padding-left: 30px'>
-              <i class='fa fa-globe'></i>
-              <a href='{{ experience.organisation_url }}'>
-                {{ experience.organisation_url | replace: 'http://', '' | replace: 'https://', ''}}
+    <div class="card">      
+      <div class="card-header" role="tab" id="heading-experience-{{forloop.index0}}">
+        <h3>
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse-experience-{{forloop.index0}}" aria-expanded="true" aria-controls="collapse-experience-{{forloop.index0}}">
+            <i class='fa fa-{{ site.data.icons[experience.status] }} fa-fw' aria-label='{{experience.status}}'></i>
+            <!-- {% if experience.organisation_url %}
+              <a href='{{experience.organisation_url}}'>
+            {% endif %} -->
+            {{ experience.organisation }}
+            <!-- {% if experience.organisation_url %}
               </a>
-            </div>
-          {% endif %}
-        </div>
-        {% if experience.role %}<h4>{{experience.role}}</h4>{% endif %}
-        {{ experience.content }}
-        
-        {% assign roles = site.roles | sort: "start" %}
-        {% for role in roles reversed jek%}
-          {% if role.experience == experience_id %}
-            <h4>
-              {{role.title}}
-              <small class="text-muted">{% include date_range.html item=role %}</small>
-            </h4>
-            {{role.content}}
-          {% endif %}
-        {% endfor %}
+            {% endif %} -->
+            <small class="text-muted">
+              {% include date_range.html item=experience %}
+            </small>
+          </a>
+        </h3>
       </div>
-
-    </li>  
+      <div id="collapse-experience-{{forloop.index0}}" class="collapse {% if forloop.first %}show{%endif%}" role="tabpanel" aria-labelledby="headingOne">
+        <div class="card-block">
+          <div style="padding-bottom: 20px">
+            {% if experience.location %}
+              <div style='display: inline; padding-right: 30px'>
+                <i class='fa fa-map-marker'></i>
+                <address style='display: inline'>{{ experience.location }}</address>
+              </div>
+            {% endif %}
+            {% if experience.organisation_url %}
+              <div style='display: inline; padding-right: 30px'>
+                <i class='fa fa-globe'></i>
+                <a href='{{ experience.organisation_url }}'>
+                  {{ experience.organisation_url | replace: 'http://', '' | replace: 'https://', ''}}
+                </a>
+              </div>
+            {% endif %}
+          </div>
+          {% if experience.role %}<h4>{{experience.role}}</h4>{% endif %}
+          {{ experience.content }}
+          
+          {% assign roles = site.roles | sort: "start" %}
+          {% for role in roles reversed jek%}
+            {% if role.experience == experience_id %}
+              <h4>
+                {{role.title}}
+                <small class="text-muted">{% include date_range.html item=role %}</small>
+              </h4>
+              {{role.content}}
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>  
   {% endfor %}
-</ul>
+</div>
