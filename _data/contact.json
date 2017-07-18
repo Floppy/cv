@@ -1,9 +1,4 @@
 {
-  "web": {
-    "text": "floppy.org.uk",
-    "url": "https://floppy.org.uk",
-    "icon": "globe"
-  },
   "email": {
     "text": "james@floppy.org.uk",
     "url": "mailto:james@floppy.org.uk",
@@ -23,6 +18,11 @@
     "text": "linkedin.com/in/floppy/",
     "url": "https://linkedin.com/in/floppy/",
     "icon": "linkedin-square"
+  },
+  "web": {
+    "text": "floppy.org.uk",
+    "url": "https://floppy.org.uk",
+    "icon": "globe"
   },
   "facebook": {
     "text": "facebook.com/jamesakafloppy",
