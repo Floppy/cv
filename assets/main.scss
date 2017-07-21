@@ -1,0 +1,50 @@
+---
+---
+
+span.skill {
+  white-space: nowrap;
+}
+
+div.jumbotron {
+  
+  background: rgb(60,126,68) url('background.jpg');
+  background-size: cover;
+  
+  div#intro {
+    background: rgba(255,255,255,0.85);
+    padding: 1em;
+  }
+  
+  img#headshot {
+    max-width: 25vw;
+  }
+  
+}
+
+div.contactcard {
+  
+  margin-bottom: 1em;
+  margin-right: 1em;
+  
+  i.contacticon {
+    color: white;
+  }
+  
+}
+
+div.experience {
+  
+  div.experience-location {
+    padding-bottom: 20px;
+    
+    > div {
+      display: inline;
+      padding-right: 30px;
+    }
+    
+    address {
+      display: inline;
+    }
+  }
+  
+}

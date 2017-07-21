@@ -11,16 +11,17 @@
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/main.css">
     <link rel="stylesheet" href="assets/print.css">
   </head>
 
   <body>
 
-    <div class="jumbotron" style="background: rgb(60,126,68) url('assets/background.jpg'); background-size: cover">
+    <div class="jumbotron">
       <div class="container">
         <div class='row'>
           <div class='col-md'>
-            <div style='background: rgba(255,255,255,0.85); padding: 1em;'>
+            <div id='intro'>
               <h1>{{page.title}}</h1>
               <p>
                 {{content}}
@@ -28,7 +29,7 @@
             </div>
           </div>
           <div class='col-md-auto hidden-sm-down'>
-            <img src='assets/headshot.jpg' class="rounded-circle" style='max-width: 25vw'>
+            <img id='headshot' src='assets/headshot.jpg' class="rounded-circle">
           </div>
         </div>
       </div>

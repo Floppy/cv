@@ -30,7 +30,7 @@
   {% assign experiences = site.experiences | sort: "start" %}
   {% for experience in experiences reversed %}
     {% assign experience_id = experience.title | downcase %}
-    <div class="card">      
+    <div class="experience card">      
       <div class="card-header" role="tab" id="heading-experience-{{forloop.index0}}">
         <h3>
           <a data-toggle="collapse" data-parent="#accordion" href="#collapse-experience-{{forloop.index0}}" aria-expanded="true" aria-controls="collapse-experience-{{forloop.index0}}">
@@ -50,15 +50,15 @@
       </div>
       <div id="collapse-experience-{{forloop.index0}}" class="collapse {% if experience.default %}show{%endif%}" role="tabpanel" aria-labelledby="headingOne">
         <div class="card-block">
-          <div style="padding-bottom: 20px">
+          <div class='experience-location'>
             {% if experience.location %}
-              <div style='display: inline; padding-right: 30px'>
+              <div>
                 <i class='fa fa-map-marker'></i>
-                <address style='display: inline'>{{ experience.location }}</address>
+                <address>{{ experience.location }}</address>
               </div>
             {% endif %}
             {% if experience.organisation_url %}
-              <div style='display: inline; padding-right: 30px'>
+              <div>
                 <i class='fa fa-globe'></i>
                 <a href='{{ experience.organisation_url }}'>
                   {{ experience.organisation_url | replace: 'http://', '' | replace: 'https://', ''}}

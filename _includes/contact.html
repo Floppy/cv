@@ -1,9 +1,9 @@
 <div class='hidden-sm-down'>
   {% for p in site.data.contact %}
-      <div class="card card-inverse card-primary" style="margin-bottom: 1em; margin-right: 1em">
+      <div class="contactcard card card-inverse card-primary">
         <div class="card-block">
           <a href='{{ p[1]["url"] }}'>
-            <i class='fa fa-{{ p[1]["icon"] }} fa-fw fa-3x' style='color: white'></i>
+            <i class='contacticon fa fa-{{ p[1]["icon"] }} fa-fw fa-3x'></i>
           </a>
         </div>
       </div>
@@ -13,10 +13,10 @@
 <div class='hidden-md-up row'>
   {% for p in site.data.contact %}
     <div class='col-4'>
-      <div class="card card-inverse card-primary text-center" style="margin: 1em">
+      <div class="contactcard card card-inverse card-primary text-center">
         <div class="card-block">
           <a href='{{ p[1]["url"] }}'>
-            <i class='fa fa-{{ p[1]["icon"] }} fa-fw fa-3x' style='color: white'></i>
+            <i class='contacticon fa fa-{{ p[1]["icon"] }} fa-fw fa-3x'></i>
           </a>
         </div>
       </div>
