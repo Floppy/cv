@@ -48,3 +48,16 @@ div.experience {
   }
   
 }
+
+#legend {
+  
+  float: right;
+  
+  li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 1.5em;
+    color: gray;
+  }
+
+}
