@@ -18,7 +18,7 @@
   {% assign experiences = site.experiences | sort: "start" %}
   {% for experience in experiences reversed %}
     {% assign experience_id = experience.title | downcase %}
-    <div class="experience card">      
+    <div class="experience card {% unless experience.print %}hidden-print{% endunless %}">
       <div class="card-header" role="tab" id="heading-experience-{{forloop.index0}}">
         <h3>
           <a data-toggle="collapse" data-parent="#accordion" href="#collapse-experience-{{forloop.index0}}" aria-expanded="true" aria-controls="collapse-experience-{{forloop.index0}}">
