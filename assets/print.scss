@@ -27,4 +27,23 @@
     display: none;
   }
   
+  .jumbotron {
+    margin-bottom: 0px;
+    
+    .container {
+      width: 100%;
+    }
+  }
+  
+  div.experience-location {
+    padding-bottom: 0.5em !important;
+  }
+  
+  kbd {
+    background: #eee;
+    color: black;
+    font-family: sans-serif;
+    border: 1px solid black;
+  }
+  
 }
