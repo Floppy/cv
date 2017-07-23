@@ -10,8 +10,10 @@ print: true
 ---
 During my PhD research, I developed a method of using densely scanned 3D surface data in realtime animation systems, using a layered approach including skeletal animation and displacement mapping techniques. My full thesis is [available for download](https://github.com/downloads/Floppy/phd-thesis/smith03thesis.pdf).
 
+{:.hidden-print}
 Other publications included:
 
+{:.hidden-print}
  * [Building 3d human models from captured images. Eurographics UK 17th Annual Conference, 1999](http://epubs.surrey.ac.uk/110204/)
  * [Virtual people: Capturing human models to populate virtual worlds. IEEE ICCA 1999](http://epubs.surrey.ac.uk/111063/)
  * [Building layered animation models from captured data. Eurographics Workshop on Animation and Simulation '99](http://epubs.surrey.ac.uk/110206/)
