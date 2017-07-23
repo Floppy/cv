@@ -20,4 +20,5 @@ skills:
   - MongoDB
   - Elasticsearch
   - Chef
+print: true
 ---

@@ -6,6 +6,7 @@ organisation: University of Surrey
 organisation_url: https://www.surrey.ac.uk
 location: Guildford, Surrey, UK
 status: education
+print: true
 skills:
   - C
   - C++

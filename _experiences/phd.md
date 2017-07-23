@@ -6,6 +6,7 @@ organisation: CVSSP, University of Surrey
 organisation_url: https://www.surrey.ac.uk/cvssp
 location: Guildford, Surrey, UK
 status: education
+print: true
 ---
 During my PhD research, I developed a method of using densely scanned 3D surface data in realtime animation systems, using a layered approach including skeletal animation and displacement mapping techniques. My full thesis is [available for download](https://github.com/downloads/Floppy/phd-thesis/smith03thesis.pdf).
 

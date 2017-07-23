@@ -10,6 +10,7 @@ skills:
   - Rails
   - Jekyll
   - Liquid
+print: true
 ---
 OpenPolitics is a project exploring how open source ideas and methods can be used in the world of politics. It started as a project to write an alternative manifesto in an open source way on GitHub; the manifesto has since grown to over 50 pages long, and has been written by over 50 contributors, many of whom are non-technical and unfamiliar with the underlying platform.
 
