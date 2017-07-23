@@ -2,7 +2,29 @@
 ---
 
 @media print {
-  .collapse {
+  body {
+    font-size: 12px;
+  }
+  
+  div.jumbotron {
+    background: white;
+    padding: 0px;
+  }
+  
+  .experience-detail {
     display: block;
   }
+  
+  footer {
+    display: none;
+  }
+
+  .hidden-screen {
+    display: block;
+  }
+
+  .hidden-print {
+    display: none;
+  }
+  
 }
