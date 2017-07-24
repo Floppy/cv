@@ -2,8 +2,14 @@
 ---
 
 @media print {
+
+  @page {
+    margin: 2cm; 
+  }
+
   body {
     font-size: 12px;
+    // margin: 2cm; 
   }
   
   div.jumbotron {
@@ -44,6 +50,20 @@
     color: black;
     font-family: sans-serif;
     border: 1px solid black;
+  }
+
+  .card-block, .card-header, .card {
+    padding: 0px;
+    border: 0px;
+  }
+  
+  .card-header {
+    background: white;
+    margin-top: 2em;
+  }
+  
+  #contact, #experience {
+    margin-top: 1.5em;
   }
   
 }
