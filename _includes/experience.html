@@ -3,7 +3,9 @@
     <div class='col'>
       <h2>Experience</h2>
     </div>
-    <div class='col-auto' id='legend'>
+  </div>
+  <div class='row'>
+    <div class='col-sm' id='legend'>
       <ul>
         <li><i class='fa fa-briefcase'></i> Employed</li>
         <li><i class='fa fa-handshake-o'></i> Contract</li>
@@ -57,7 +59,7 @@
             </div>
             {% if experience.role %}<h4>{{experience.role}}</h4>{% endif %}
             {{ experience.content }}
-            
+
             {% assign roles = site.roles | sort: "start" %}
             {% for role in roles reversed jek%}
               {% if role.experience == experience_id %}
@@ -70,7 +72,7 @@
             {% endfor %}
           </div>
         </div>
-      </div>  
+      </div>
     {% endfor %}
   </div>
 </div>
