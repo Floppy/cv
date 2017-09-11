@@ -2,6 +2,8 @@
 start: 2017-05-01
 organisation: Freelance
 status: contract
+default: true
+print: true
 ---
 Short-contract freelance technology work for a range of clients. Projects included:
 
