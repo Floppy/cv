@@ -58,6 +58,10 @@ div.experience {
     display: inline-block;
     margin-right: 1.5em;
     color: gray;
+    
+    button {
+      cursor: pointer;
+    }
   }
 
 }

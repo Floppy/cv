@@ -6,12 +6,32 @@
   </div>
   <div class='row'>
     <div class='col-sm' id='legend'>
-      <ul>
-        <li><i class='fa fa-briefcase'></i> Employed</li>
-        <li><i class='fa fa-handshake-o'></i> Contract</li>
-        <li><i class='fa fa-user'></i> Self Employed</li>
-        <li><i class='fa fa-hand-peace-o'></i> Voluntary</li>
-        <li><i class='fa fa-graduation-cap'></i> Education</li>
+      <ul>        
+        <li>
+          <button type="button" onclick='$(".experience-employed").toggle();' class="btn btn-secondary active" data-toggle="button" aria-pressed="true">
+            <i class='fa fa-briefcase'></i> Employed
+          </button>
+        </li>
+        <li>
+          <button type="button" onclick='$(".experience-contract").toggle();' class="btn btn-secondary active" data-toggle="button" aria-pressed="true">
+            <i class='fa fa-handshake-o'></i> Contract
+          </button>
+        </li>
+        <li>
+          <button type="button" onclick='$(".experience-selfemployed").toggle();' class="btn btn-secondary active" data-toggle="button" aria-pressed="true">
+            <i class='fa fa-user'></i> Self Employed
+          </button>
+        </li>
+        <li>
+          <button type="button" onclick='$(".experience-voluntary").toggle();' class="btn btn-secondary active" data-toggle="button" aria-pressed="true">
+            <i class='fa fa-hand-peace-o'></i> Voluntary
+          </button>
+        </li>
+        <li>
+          <button type="button" onclick='$(".experience-education").toggle();' class="btn btn-secondary active" data-toggle="button" aria-pressed="true">
+            <i class='fa fa-graduation-cap'></i> Education
+          </button>
+        </li>
       </ul>
     </div>
   </div>
@@ -21,7 +41,7 @@
     {% assign experiences = site.experiences | sort: "start" %}
     {% for experience in experiences reversed %}
       {% assign experience_id = experience.title | downcase %}
-      <div class="experience card {% unless experience.print %}hidden-print{% endunless %}">
+      <div class="experience card {% unless experience.print %}hidden-print{% endunless %} experience-{{ experience.status }}">
         <div class="card-header" role="tab" id="heading-experience-{{forloop.index0}}">
           <h3>
             <a data-toggle="collapse" data-parent="#accordion" href="#collapse-experience-{{forloop.index0}}" aria-expanded="true" aria-controls="collapse-experience-{{forloop.index0}}">
