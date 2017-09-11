@@ -42,6 +42,7 @@
   "phone": {
     "text": "mreb frira frira bar svir bar mreb svir guerr sbhe avar",
     "url": "https://gchq.github.io/CyberChef/#input=bXJlYiBmcmlyYSBmcmlyYSBiYXIgc3ZpciBiYXIgbXJlYiBzdmlyIGd1ZXJyIHNiaGUgYXZhcg",
+    "onclick": "return confirm(\"My phone number is obfuscated to prevent harvesting by spambots and unscrupulous recruiters. The next page will give you an interface to unscramble it. If you work it out, give me a call!\")",
     "icon": "phone"
   }
 }

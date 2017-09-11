@@ -4,7 +4,7 @@
       {% for p in site.data.contact %}
           <div class="contactcard card card-inverse card-primary">
             <div class="card-block">
-              <a href='{{ p[1]["url"] }}'>
+              <a href='{{ p[1]["url"] }}' {% if p[1]["onclick"] %}onclick='{{p[1]["onclick"]}}'{% endif %}>
                 <i class='contacticon fa fa-{{ p[1]["icon"] }} fa-fw fa-3x'></i>
               </a>
             </div>
@@ -17,7 +17,7 @@
         <div class='col-4'>
           <div class="contactcard card card-inverse card-primary text-center">
             <div class="card-block">
-              <a href='{{ p[1]["url"] }}'>
+              <a href='{{ p[1]["url"] }}' {% if p[1]["onclick"] %}onclick='{{p[1]["onclick"]}}'{% endif %}>
                 <i class='contacticon fa fa-{{ p[1]["icon"] }} fa-fw fa-3x'></i>
               </a>
             </div>
