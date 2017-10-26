@@ -1,5 +1,6 @@
 ---
 start: 2017-05-01
+end: 2017-10-31
 organisation: Freelance
 status: contract
 default: true
