@@ -4,7 +4,7 @@ organisation: Apolitical
 organisation_url: https://apolitical.co
 location: London, UK
 status: employed
-role: Lead Engineer
+role: Head of Engineering
 skills:
   - Ruby
   - C++
