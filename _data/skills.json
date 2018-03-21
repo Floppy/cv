@@ -25,6 +25,7 @@
   ],
   "Languages": [
     "Ruby", 
+    "JavaScript", 
     "C++", 
     "C", 
     "Java", 
@@ -33,7 +34,6 @@
     "React Native",
     "Objective C", 
     "Rust",
-    "JavaScript", 
     "CoffeeScript", 
     "PHP",
   ],
@@ -53,6 +53,8 @@
     "three.js",
   ],
   "Design": [
+    "Serverless",
+    "Microservices",
     "HTTP",
     "REST",
     "HATEOAS",
@@ -68,6 +70,7 @@
     "iOS",
     "Heroku",
     "AWS",
+    "Google Cloud Platform",
     "OpenStack"
   ],
   "Databases": [
@@ -84,7 +87,7 @@
     "Git", 
     "GitHub",
     "Subversion", 
-    "Capistrano", 
+    "Kubernetes", 
     "Chef", 
     "RVM",
     "rbenv",
@@ -92,7 +95,6 @@
     "Apache", 
     "nginx", 
     "make", 
-    "Ant",
     "JIRA"
   ],
 }
