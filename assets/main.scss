@@ -3,6 +3,8 @@
 
 span.skill {
   white-space: nowrap;
+  margin-bottom: 4px;
+  display: inline-block;
 }
 
 div.jumbotron {
@@ -30,6 +32,10 @@ div.contactcard {
     color: white;
   }
 
+}
+
+div#experience {
+  margin-bottom: 10px;
 }
 
 div.experience {
