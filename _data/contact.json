@@ -1,48 +1,48 @@
 {
-  "keybase": {
-    "text": "keybase.io/Floppy",
-    "url": "https://keybase.io/Floppy",
-    "icon": "key"
-  },
   "email": {
     "text": "james@floppy.org.uk",
     "url": "mailto:james@floppy.org.uk",
-    "icon": "envelope"
+    "icon": "fas fa-envelope"
   },
   "twitter": {
     "text": "@Floppy",
     "url": "https://twitter.com/Floppy",
-    "icon": "twitter"
+    "icon": "fab fa-twitter"
+  },
+  "mastodon": {
+    "text": "@Floppy@mastodon.me.uk",
+    "url": "https://mastodon.me.uk/@Floppy",
+    "icon": "fab fa-mastodon"
   },
   "github": {
     "text": "github.com/Floppy",
     "url": "https://github.com/Floppy",
-    "icon": "github"
+    "icon": "fab fa-github"
   },
   "linkedin": {
     "text": "linkedin.com/in/floppy/",
     "url": "https://linkedin.com/in/floppy/",
-    "icon": "linkedin-square"
+    "icon": "fab fa-linkedin"
   },
   "web": {
     "text": "floppy.org.uk",
     "url": "https://floppy.org.uk",
-    "icon": "globe"
+    "icon": "fas fa-globe"
   },
-  "facebook": {
-    "text": "facebook.com/jamesakafloppy",
-    "url": "https://facebook.com/jamesakafloppy",
-    "icon": "facebook-official"
+  "keybase": {
+    "text": "keybase.io/Floppy",
+    "url": "https://keybase.io/Floppy",
+    "icon": "fas fa-key"
   },
   "skype": {
     "text": "r-j-smith",
     "url": "skype:r-j-smith?userinfo",
-    "icon": "skype"
+    "icon": "fab fa-skype"
   },
   "phone": {
     "text": "mreb frira frira bar svir bar mreb svir guerr sbhe avar",
     "url": "https://gchq.github.io/CyberChef/#input=bXJlYiBmcmlyYSBmcmlyYSBiYXIgc3ZpciBiYXIgbXJlYiBzdmlyIGd1ZXJyIHNiaGUgYXZhcg",
     "onclick": "return confirm(\"My phone number is obfuscated to prevent harvesting by spambots and unscrupulous recruiters. The next page will give you an interface to unscramble it. If you work it out, give me a call!\")",
-    "icon": "phone"
+    "icon": "fas fa-phone"
   }
 }
