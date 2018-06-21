@@ -14,4 +14,4 @@ default: true
 
 I am currently employed at Apolitical, a platform for public servants to connect and share what’s working in government. As the first in-house technical hire, I am building and leading an engineering team that is creating the next generation of Apolitical's platform. As we are currently a small team, my role is a combination of hands-on coding, strategic architectural work, and team management.
 
-We are changing from a monolithic approach to microservices managed with Kubernetes, built in a variety of languages as appropriate for the task at hand. We are also using 'serverless' functions, and integrations with many third-party services.
+We are migrating from a monolithic prototype to scalable microservices managed with Kubernetes. The microservices are built in a variety of languages as appropriate for the task at hand, including Node.js, Rust, Python, and some legacy PHP. Frontend development is using React, Redux, and a styled components approach. We are also using serverless functions, and API integrations with many third-party services.

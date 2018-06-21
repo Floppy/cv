@@ -41,6 +41,7 @@
     "Rails", 
     "Sinatra",
     "Node.js",
+    "Express"
     "HTML", 
     "CSS",    
     "Sass",
@@ -70,7 +71,7 @@
     "iOS",
     "Heroku",
     "AWS",
-    "Google Cloud Platform",
+    "Google Cloud",
     "OpenStack"
   ],
   "Databases": [
