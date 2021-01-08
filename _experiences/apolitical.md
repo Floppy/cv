@@ -1,5 +1,6 @@
 ---
 start: 2017-10-01
+end: 2019-06-28
 organisation: Apolitical
 organisation_url: https://apolitical.co
 location: London, UK
@@ -8,7 +9,7 @@ role: Head of Engineering
 skills:
   - Node.js
   - Kubernetes
-print: true  
+print: true
 default: true
 ---
 
