@@ -14,6 +14,6 @@ skills:
   - Trac
   - CruiseControl
   - CppUnit
-print: true
+print: false
 ---
 SEOS makes display systems for flight simulators and planetariums.
