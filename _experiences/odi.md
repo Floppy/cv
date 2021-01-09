@@ -20,4 +20,5 @@ skills:
   - Elasticsearch
   - Chef
 print: true
+default: true
 ---
