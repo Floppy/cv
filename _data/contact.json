@@ -4,11 +4,6 @@
     "url": "mailto:james@floppy.org.uk",
     "icon": "fas fa-envelope"
   },
-  "twitter": {
-    "text": "@Floppy",
-    "url": "https://twitter.com/Floppy",
-    "icon": "fab fa-twitter"
-  },
   "mastodon": {
     "text": "@Floppy@mastodon.me.uk",
     "url": "https://mastodon.me.uk/@Floppy",
@@ -25,14 +20,14 @@
     "icon": "fas fa-globe"
   },
   "keybase": {
-    "text": "keybase.io/Floppy",
-    "url": "https://keybase.io/Floppy",
+    "text": "BB87 E90E 3A03 BA98 FD1E 7C43 BF20 545F D512 2D5D",
+    "url": "https://keyserver.ubuntu.com/pks/lookup?search=0xbb87e90e3a03ba98fd1e7c43bf20545fd5122d5d&fingerprint=on&op=index",
     "icon": "fas fa-key"
   },
-  "skype": {
-    "text": "r-j-smith",
-    "url": "skype:r-j-smith?userinfo",
-    "icon": "fab fa-skype"
+  "matrix": {
+    "text": "@floppy:one.ems.host",
+    "url": "https://matrix.to/#/@floppy:one.ems.host",
+    "icon": "fas fa-comment"
   },
   "phone": {
     "text": "mreb frira frira bar svir bar mreb svir guerr sbhe avar",
