@@ -4,31 +4,36 @@
       <h2>Experience</h2>
     </div>
   </div>
-  <div class='row'>
+  <div class='row hidden-print'>
     <div class='col-sm' id='legend'>
-      <ul>        
+      <ul>
         <li>
-          <button type="button" onclick='$(".experience-employed").toggle();' class="btn btn-secondary active" data-toggle="button" aria-pressed="true">
+          <button type="button" onclick='$(".experience-employed").toggle();' class="btn btn-secondary active"
+            data-toggle="button" aria-pressed="true">
             <i class='fas fa-briefcase'></i> Employed
           </button>
         </li>
         <li>
-          <button type="button" onclick='$(".experience-contract").toggle();' class="btn btn-secondary active" data-toggle="button" aria-pressed="true">
+          <button type="button" onclick='$(".experience-contract").toggle();' class="btn btn-secondary active"
+            data-toggle="button" aria-pressed="true">
             <i class='fas fa-handshake'></i> Contract
           </button>
         </li>
         <li>
-          <button type="button" onclick='$(".experience-selfemployed").toggle();' class="btn btn-secondary active" data-toggle="button" aria-pressed="true">
+          <button type="button" onclick='$(".experience-selfemployed").toggle();' class="btn btn-secondary active"
+            data-toggle="button" aria-pressed="true">
             <i class='fas fa-user'></i> Self Employed
           </button>
         </li>
         <li>
-          <button type="button" onclick='$(".experience-voluntary").toggle();' class="btn btn-secondary active" data-toggle="button" aria-pressed="true">
+          <button type="button" onclick='$(".experience-voluntary").toggle();' class="btn btn-secondary active"
+            data-toggle="button" aria-pressed="true">
             <i class='fas fa-hand-peace'></i> Voluntary
           </button>
         </li>
         <li>
-          <button type="button" onclick='$(".experience-education").toggle();' class="btn btn-secondary active" data-toggle="button" aria-pressed="true">
+          <button type="button" onclick='$(".experience-education").toggle();' class="btn btn-secondary active"
+            data-toggle="button" aria-pressed="true">
             <i class='fas fa-graduation-cap'></i> Education
           </button>
         </li>
@@ -40,59 +45,63 @@
   <div id="accordion" role="tablist" aria-multiselectable="true">
     {% assign experiences = site.experiences | sort: "start" %}
     {% for experience in experiences reversed %}
-      {% assign experience_id = experience.title | downcase %}
-      <div class="experience card {% unless experience.print %}hidden-print{% endunless %} experience-{{ experience.status }}">
-        <div class="card-header" role="tab" id="heading-experience-{{forloop.index0}}">
-          <h3>
-            <a data-toggle="collapse" data-parent="#accordion" href="#collapse-experience-{{forloop.index0}}" aria-expanded="true" aria-controls="collapse-experience-{{forloop.index0}}">
-              <i class='fas fa-{{ site.data.icons[experience.status] }} fa-fw' aria-label='{{experience.status}}'></i>
-              <!-- {% if experience.organisation_url %}
+    {% assign experience_id = experience.title | downcase %}
+    <div
+      class="experience card {% unless experience.print %}hidden-print{% endunless %} experience-{{ experience.status }}">
+      <div class="card-header" role="tab" id="heading-experience-{{forloop.index0}}">
+        <h3>
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse-experience-{{forloop.index0}}"
+            aria-expanded="true" aria-controls="collapse-experience-{{forloop.index0}}">
+            <i class='fas fa-{{ site.data.icons[experience.status] }} fa-fw' aria-label='{{experience.status}}'></i>
+            <!-- {% if experience.organisation_url %}
                 <a href='{{experience.organisation_url}}'>
               {% endif %} -->
-              {{ experience.organisation }}
-              <!-- {% if experience.organisation_url %}
+            {{ experience.organisation }}
+            <!-- {% if experience.organisation_url %}
                 </a>
               {% endif %} -->
-              <small class="text-muted">
-                {% include date_range.html item=experience %}
-              </small>
-            </a>
-          </h3>
-        </div>
-        <div id="collapse-experience-{{forloop.index0}}" class="experience-detail collapse {% if experience.default %}show{%endif%}" role="tabpanel" aria-labelledby="headingOne">
-          <div class="card-block">
-            <div class='experience-location'>
-              {% if experience.location %}
-                <div>
-                  <i class='fas fa-map-marker'></i>
-                  <address>{{ experience.location }}</address>
-                </div>
-              {% endif %}
-              {% if experience.organisation_url %}
-                <div>
-                  <i class='fas fa-globe'></i>
-                  <a href='{{ experience.organisation_url }}'>
-                    {{ experience.organisation_url | replace: 'http://', '' | replace: 'https://', ''}}
-                  </a>
-                </div>
-              {% endif %}
+            <small class="text-muted">
+              {% include date_range.html item=experience %}
+            </small>
+          </a>
+        </h3>
+      </div>
+      <div id="collapse-experience-{{forloop.index0}}"
+        class="experience-detail collapse {% if experience.default %}show{%endif%}" role="tabpanel"
+        aria-labelledby="headingOne">
+        <div class="card-block">
+          <div class='experience-location'>
+            {% if experience.location %}
+            <div>
+              <i class='fas fa-map-marker'></i>
+              <address>{{ experience.location }}</address>
             </div>
-            {% if experience.role %}<h4>{{experience.role}}</h4>{% endif %}
-            {{ experience.content }}
-
-            {% assign roles = site.roles | sort: "start" %}
-            {% for role in roles reversed jek%}
-              {% if role.experience == experience_id %}
-                <h4>
-                  {{role.title}}
-                  <small class="text-muted">{% include date_range.html item=role %}</small>
-                </h4>
-                {{role.content}}
-              {% endif %}
-            {% endfor %}
+            {% endif %}
+            {% if experience.organisation_url %}
+            <div>
+              <i class='fas fa-globe'></i>
+              <a href='{{ experience.organisation_url }}'>
+                {{ experience.organisation_url | replace: 'http://', '' | replace: 'https://', ''}}
+              </a>
+            </div>
+            {% endif %}
           </div>
+          {% if experience.role %}<h4>{{experience.role}}</h4>{% endif %}
+          {{ experience.content }}
+
+          {% assign roles = site.roles | sort: "start" %}
+          {% for role in roles reversed jek%}
+          {% if role.experience == experience_id %}
+          <h4>
+            {{role.title}}
+            <small class="text-muted">{% include date_range.html item=role %}</small>
+          </h4>
+          {{role.content}}
+          {% endif %}
+          {% endfor %}
         </div>
       </div>
+    </div>
     {% endfor %}
   </div>
 </div>
