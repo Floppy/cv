@@ -4,23 +4,23 @@
 @media print {
 
   @page {
-    margin: 2cm; 
+    margin: 2cm;
   }
 
   body {
     font-size: 12px;
-    // margin: 2cm; 
+    // margin: 2cm;
   }
-  
+
   div.jumbotron {
     background: white;
     padding: 0px;
   }
-  
+
   .experience-detail {
     display: block;
   }
-  
+
   footer {
     display: none;
   }
@@ -32,19 +32,19 @@
   .hidden-print {
     display: none;
   }
-  
+
   .jumbotron {
     margin-bottom: 0px;
-    
+
     .container {
       width: 100%;
     }
   }
-  
+
   div.experience-location {
     padding-bottom: 0.5em !important;
   }
-  
+
   kbd {
     background: #eee;
     color: black;
@@ -56,14 +56,18 @@
     padding: 0px;
     border: 0px;
   }
-  
+
   .card-header {
     background: white;
     margin-top: 2em;
   }
-  
+
   #contact, #experience {
     margin-top: 1.5em;
   }
-  
+
+  #skills {
+    font-size: 90%;
+  }
+
 }
