@@ -11,6 +11,6 @@ skills:
   - Rails
   - PostgreSQL
   - PostGIS
-print: true
+print: false
 ---
 I was contracted to help build a homebuyers research site based on a wide range of open data. This involved building custom data cleaning pipelines, importers, and API clients, as well as backend and frontend development with Ruby on Rails.
