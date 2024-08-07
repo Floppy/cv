@@ -1,7 +1,7 @@
 ---
 experience: dxw
 start: 2019-07-08
-end:
+end: 2024-01-19
 title: Lead Technologist
 ---
 My role as a Lead Technologist is to work with our delivery teams, often in discovery and alpha phases, to help shape the technical approach for a project. This ranges from technical discovery work with a client to understand their challenges, to helping our developers design their solutions.
