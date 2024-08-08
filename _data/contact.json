@@ -19,9 +19,9 @@
     "url": "https://floppy.org.uk",
     "icon": "fas fa-globe"
   },
-  "keybase": {
+  "pgp": {
     "text": "BB87 E90E 3A03 BA98 FD1E 7C43 BF20 545F D512 2D5D",
-    "url": "https://keyserver.ubuntu.com/pks/lookup?search=0xbb87e90e3a03ba98fd1e7c43bf20545fd5122d5d&fingerprint=on&op=index",
+    "url": "https://keyoxide.org/BB87E90E3A03BA98FD1E7C43BF20545FD5122D5D",
     "icon": "fas fa-key"
   },
   "matrix": {
