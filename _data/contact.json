@@ -1,9 +1,4 @@
 {
-  "email": {
-    "text": "james@floppy.org.uk",
-    "url": "mailto:james@floppy.org.uk",
-    "icon": "fas fa-envelope"
-  },
   "mastodon": {
     "text": "@Floppy@mastodon.me.uk",
     "url": "https://mastodon.me.uk/@Floppy",
@@ -23,16 +18,5 @@
     "text": "BB87 E90E 3A03 BA98 FD1E 7C43 BF20 545F D512 2D5D",
     "url": "https://keyoxide.org/BB87E90E3A03BA98FD1E7C43BF20545FD5122D5D",
     "icon": "fas fa-key"
-  },
-  "matrix": {
-    "text": "@james:floppy.org.uk",
-    "url": "https://matrix.to/#/@james:floppy.org.uk",
-    "icon": "fas fa-comment"
-  },
-  "phone": {
-    "text": "mreb frira frira bar svir bar mreb svir guerr sbhe avar",
-    "url": "https://gchq.github.io/CyberChef/#input=bXJlYiBmcmlyYSBmcmlyYSBiYXIgc3ZpciBiYXIgbXJlYiBzdmlyIGd1ZXJyIHNiaGUgYXZhcg",
-    "onclick": "return confirm(\"My phone number is obfuscated to prevent harvesting by spambots and unscrupulous recruiters. The next page will give you an interface to unscramble it. If you work it out, give me a call!\")",
-    "icon": "fas fa-phone"
   }
 }
